@@ -36,3 +36,32 @@ https://docs.flutter.dev/get-started/install/windows/mobile?tab=download
 
 - Check example.dart file
 
+### Flutter Project Structure
+
+- **Introduction**
+  - Brief overview of a Flutter project's structure.
+  - Emphasis on the significance of the `lib` directory.
+
+- **Key Files and Directories**
+  - Explanation of essential files and directories.
+  - Highlighting `lib/main.dart`, `pubspec.yaml`, `lib/screens/`, and `lib/widgets/`.
+
+### Widgets and Their Role in Flutter
+
+- **Introduction to Widgets**
+  - Definition of widgets in Flutter.
+  - Differentiation between Stateless and Stateful widgets.
+
+- **Commonly Used Widgets**
+  - Discussion of frequently used widgets:
+    - `Container`, `Row`, `Column`, `Text`, and `Image`
+  - Examples and properties exploration.
+
+### Building a Simple Flutter App
+
+- **Live Coding**
+  - Live coding session to create a basic Flutter app.
+  - Incremental development from project structure to a small working application.
+
+- **Hands-on Exercise**
+  - Participant task: Modify the app to include an image and change the text.

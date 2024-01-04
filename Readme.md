@@ -68,7 +68,7 @@ https://docs.flutter.dev/get-started/install/windows/mobile?tab=download
 
 5. **Assets:**
   - `assets/` directory for non-code assets like images and fonts.
-
+s
 6. **`pubspec.yaml`:**
   - Configuration file with metadata, dependencies, and assets.
 
@@ -140,15 +140,65 @@ class MyButton extends StatelessWidget {
 }
 ```
 
-## Building a Simple Flutter App
+## Creating a Simple Flutter App
 
-- **Live Coding**
-  - Live coding session to create a basic Flutter app.
-  - Incremental development from project structure to a small working application.
+- **Create a Flutter Project**
+Open a terminal and run the following commands to create a new Flutter project:
 
-- **Hands-on Exercise**
-  - Participant task: Modify the app to include an image and change the text.
+```bash
+flutter create my_flutter_app
+cd my_flutter_app
+```
 
+- **Replace the content of the lib/main.dart with the example code**
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Flutter App with MyButton'),
+        ),
+        body: Center(
+          child: MyButton(
+            label: 'Click Me!',
+            onPressed: () {
+              print('Button Clicked!');
+            },
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class MyButton extends StatelessWidget {
+  final String label;
+  final VoidCallback onPressed;
+
+  MyButton({required this.label, required this.onPressed});
+
+  @override
+  Widget build(BuildContext context) {
+    return ElevatedButton(
+      onPressed: onPressed,
+      child: Text(label),
+    );
+  }
+}
+```
+
+-**Run the app**
+```bash
+flutter run
+```
 
 ## **Authors**
 

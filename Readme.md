@@ -1,5 +1,19 @@
 # Introduction to Flutter Workshop
 
+***
+
+## **Table of Contents**
+
+- [**Objective**](#Objective)
+- [**Installing Flutter SDK**](#Installing Flutter SDK)
+- [**Introduction to dart code**](#Introducing to dart code)
+- [**Flutter Project Structure**](#Flutter Project Structure)
+- [**Widgets and Their Role in Flutter**](#Widgets and Their Role in Flutter)
+- [**Authors**](#authors)
+
+***
+
+
 ## Objective
 The "Introduction to Flutter" workshop aims to provide participants with a foundational understanding of Flutter, a UI toolkit developed by Google for building natively compiled applications for mobile, web, and desktop from a single codebase. Participants will learn the basics of Flutter, its architecture, and how to create cross-platform applications efficiently.
 
@@ -134,3 +148,14 @@ class MyButton extends StatelessWidget {
 
 - **Hands-on Exercise**
   - Participant task: Modify the app to include an image and change the text.
+
+
+## **Authors**
+
+<table>
+    <tbody>
+        <tr>
+            <td align="center"><a href="https://github.com/444sofiane"><img src="https://avatars.githubusercontent.com/u/91785730?v=4" width="100px;" alt="444sofiane"/><br/><sub><b>Sofiane Saou</b></sub></a><br/></td>
+        </tr>
+    </tbody>
+</table>

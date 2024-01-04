@@ -4,7 +4,8 @@
 The "Introduction to Flutter" workshop aims to provide participants with a foundational understanding of Flutter, a UI toolkit developed by Google for building natively compiled applications for mobile, web, and desktop from a single codebase. Participants will learn the basics of Flutter, its architecture, and how to create cross-platform applications efficiently.
 
 #### Installing Flutter SDK:
-- Install Flutter using this site (download and install) : https://docs.flutter.dev/get-started/install/windows/mobile?tab=download
+- Install Flutter using this site (download and install) : 
+https://docs.flutter.dev/get-started/install/windows/mobile?tab=download
 - Install Android Studio.
 - Install the following SDKs:
     - Android SDK Platform, API 33.0.0
@@ -30,3 +31,8 @@ The "Introduction to Flutter" workshop aims to provide participants with a found
     ```
     flutter doctor
     ```
+
+#### Introducing to dart code 
+
+- Check example.dart file
+

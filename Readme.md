@@ -5,7 +5,7 @@
 ## **Table of Contents**
 
 - [**Objective**](#Objective)
-- [**Installing Flutter SDK**](#Installing Flutter SDK)
+- [**Installing Flutter SDK:**](#Installing Flutter SDK)
 - [**Introduction to dart code**](#Introducing to dart code)
 - [**Flutter Project Structure**](#Flutter Project Structure)
 - [**Widgets and Their Role in Flutter**](#Widgets and Their Role in Flutter)
@@ -14,10 +14,12 @@
 ***
 
 
-## Objective
+## **Objective**
 The "Introduction to Flutter" workshop aims to provide participants with a foundational understanding of Flutter, a UI toolkit developed by Google for building natively compiled applications for mobile, web, and desktop from a single codebase. Participants will learn the basics of Flutter, its architecture, and how to create cross-platform applications efficiently.
 
-## Installing Flutter SDK:
+***
+
+## **Installing Flutter SDK**
 - Install Flutter using this site (download and install) : 
 https://docs.flutter.dev/get-started/install/windows/mobile?tab=download
 - Install Android Studio.
@@ -46,11 +48,15 @@ https://docs.flutter.dev/get-started/install/windows/mobile?tab=download
     flutter doctor
     ```
 
-## Introducing to dart code 
+***
+
+## **Introducing to dart code**
 
 - Check example.dart file
 
-## Flutter Project Structure
+***
+
+## **Flutter Project Structure**
 
 1. **`lib` Directory:**
   - The central directory containing Dart code for the Flutter application.
@@ -84,8 +90,9 @@ s
 10. **Platform-Specific Code:**
   - `android/` and `ios/` folders for platform-specific configurations and code.
 
+***
 
-## Widgets and Their Role in Flutter
+## **Widgets and Their Role in Flutter**
 
 - **Widgets as Elements:**
   - In Flutter, everything is a widget, representing visual elements and structural components.
@@ -139,6 +146,8 @@ class MyButton extends StatelessWidget {
   }
 }
 ```
+
+***
 
 ## Creating a Simple Flutter App
 
@@ -199,6 +208,8 @@ class MyButton extends StatelessWidget {
 ```bash
 flutter run
 ```
+
+***
 
 ## **Authors**
 
